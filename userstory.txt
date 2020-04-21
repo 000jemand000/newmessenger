@@ -1,0 +1,2 @@
+Ein grober Messenger über den sich zwei Personen von verschiedenen Orten aus Nachrichten 
+schreiben können, die dann bei dem anderen ankommen.
