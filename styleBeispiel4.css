@@ -19,29 +19,45 @@ message-section
 
 user-label
 {
-    display: inline;
-    position: relative;
+    margin: 8px;
+    padding-top: 5px;
+    display: block;
 }
 
 message-box
 {
     display: block;
     margin-left: 1.5cm;
+    padding-bottom: 15%;
+    white-space: pre;
 }
 
-/*ueberbox
-{
-    height: 3cm;
+ueberbox
+{   
+    margin: 2px;
+    display: block;
+    min-height: 80px;
     width: 10cm;
-    background-image: url(./png-transparent-speech-balloon-callout-speech-bubble-background-white-message-bubble-miscellaneous-angle-white.png);
+    border-style: solid;
+    border-width: 0px;
+    background-color: #a0f5a0;
+    background:url(./textbubble.png);
+    background-size: 100% 100%;
 }
-*/
+
 main
 {
     width: 100%;
     height: 70%;
 }
 
+textarea
+{
+    position: absolute;
+    bottom: 30px;
+    left: 475px;
+    width: 400px;
+}
 input
 {
     position: absolute;
