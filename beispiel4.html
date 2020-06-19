@@ -5,7 +5,7 @@
     <meta name="beispiel4">
     <title>beispiel4</title>
     <link rel="stylesheet" type="text/css" href="styleBeispiel4.css">
-    <script type="text/javascript" src="scriptBeispiel4.js"></script>
+    
 </head>
 <body>
     <login-section id="loginSection">   
@@ -21,10 +21,7 @@
         <form name="eingabe_form" onsubmit="sendMsg()">
          
             <textarea id="txbx_eingabe" rows="3" cols="100" wrap="hard" ></textarea>
-            <!-- todo: should be in separate external script file -->
-            <script>
-                document.getElementById("txbx_eingabe").addEventListener("keypress", submitOnEnter);    
-            </script>    
+            <script type="text/javascript" src="scriptBeispiel4.js"></script>   
         </form>
     </message-section>
     

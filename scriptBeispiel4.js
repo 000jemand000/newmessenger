@@ -35,3 +35,5 @@ function submitOnEnter(event){
     }
 }
 
+document.getElementById("txbx_eingabe").addEventListener("keypress", submitOnEnter);    
+
